@@ -1,4 +1,5 @@
 # Operadores booleanos en PostgreSQL
+
 <p align="justify">
 La lógica proposicional o calculo proposicional es una herramienta utilizada en muchas áreas del conocimiento: en matemáticas se utiliza para demostrar teoremas, en derecho se utiliza para la formulación de argumentos, en física para establecer el procedimiento para llevar a cabo un experimento, en el campo de la computación  tiene un papel relevante ya que se relaciona con las áreas de Inteligencia Artificial y Lenguajes de programación.
 </p>
@@ -32,15 +33,15 @@ En cuanto a esta última área, su utilización va desde la demostración de pro
   </table>
   <p>Mostraré unos ejemplos de operaciones booleanas básicas, creamos la siguiente tabla:</p>
 <div>
-<IMG src="picture_library/booleanType/tbPropositions.png">
+<IMG src="images/tbPropositions.png">
 </div><br>
   <p>Ahora insertaré unos registros, como proposiciones utilizaré las columnas nombrándolas con las letras standard que se usan para representarlas, en otra columna almacenaré su correspondiente valor de verdad, esto lo hago con el siguiente script.</p>
 <div>
-<IMG src="picture_library/booleanType/insertTbPropositions.png">
+<IMG src="images/insertTbPropositions.png">
 </div><br>
    <p align="justify">Al ejecutar el script y después la consulta <i>SELECT * FROM propositions</i> observamos que a pesar de los sinónimos en los comandos <strong>INSERT</strong>, únicamente se almacenaron en la tabla los valores <strong>f</strong>  y <strong>t</strong>.</p>
 <div>
-<IMG src="picture_library/booleanType/fig1.png">
+<IMG src="images/fig1.png">
 </div><br>
 <p align="justify">Adicionalmente al tipo de dato <strong>boolean</strong> ,<strong>PostgreSQL</strong> cuenta con los operadores lógicos o conectores <strong>AND</strong> , <strong>OR</strong>  y <strong>NOT</strong>  que permiten formar proposiciones compuestas, es decir proposiciones que se forman por dos o más proposiciones simples unidas por conectores.</p>
   <p></p><strong>Conjunción AND</strong>
@@ -89,11 +90,11 @@ En cuanto a esta última área, su utilización va desde la demostración de pro
   </table>
   <p align="justify">Ejecuto unas consultas con el operador <strong>AND</strong> en <strong>PostgreSQL</strong> , para confirmar la tabla de verdad (truth table):</p>
  <div>
- <IMG src="picture_library/booleanType/fig2.png">
+ <IMG src="images/fig2.png">
  </div>
  <br>
  <div>
- <IMG src="picture_library/booleanType/fig3.png">
+ <IMG src="images/fig3.png">
  </div><br>
     <p><strong>Disyunción OR</strong> </p>
     <p align="justify">Suma lógica, su tabla de verdad incluyendo el valor NULL es la siguiente:</p>
@@ -141,10 +142,10 @@ En cuanto a esta última área, su utilización va desde la demostración de pro
     </table>
     <p align="justify">Ejecuto unas consultas con el operador <strong>OR</strong> en <strong>PostgreSQL</strong> , para confirmar la tabla de verdad (truth table):</p>
     <div>
-    <IMG src="picture_library/booleanType/fig4.png">
+    <IMG src="images/fig4.png">
     </div><br>
     <div>
-    <IMG src="picture_library/booleanType/fig5.png">
+    <IMG src="images/fig5.png">
     </div><br>
     <p><h2>Negación NOT</h2></p>
     <p>Este operador invierte el valor de la proposición, su tabla de verdad incluyendo el valor NULL es la siguiente:</p>
@@ -168,9 +169,9 @@ En cuanto a esta última área, su utilización va desde la demostración de pro
     </table>
     <p align="justify">Ejecutando el operador <strong>NOT</strong> en <strong>PostgreSQL</strong>, en las siguientes consultas, para confirmar la tabla de verdad (truth table):</p>
     <div>
-    <IMG src="picture_library/booleanType/fig6.png"></div><br>
+    <IMG src="images/fig6.png"></div><br>
     <div>
-    <IMG src="picture_library/booleanType/fig7.png"></div><br>
+    <IMG src="images/fig7.png"></div><br>
 <p align="justify">
 Con este repaso vemos que en el contexto de las bases de datos además de los valores de verdad como <strong>True</strong> y <strong>False</strong> tenemos que considerar el valor <strong>NULL</strong> al momento de hacer operaciones booleanas.
 </p>
