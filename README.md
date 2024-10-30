@@ -35,7 +35,7 @@ En cuanto a esta última área, su utilización va desde la demostración de pro
   Mostraré unos ejemplos de operaciones booleanas básicas, creamos la siguiente tabla con el siguiente script <i>src/insertTbPropositions.plsql</i>:
   </p>
 <div>
-<IMG src="images/">
+<IMG src="images/tbPropositions.png">
 </div><br>
   <p>Ahora insertaré unos registros, como proposiciones utilizaré las columnas nombrándolas con las letras standard que se usan para representarlas, en otra columna almacenaré su correspondiente valor de verdad, esto lo hago con el siguiente script.</p>
 <div>
