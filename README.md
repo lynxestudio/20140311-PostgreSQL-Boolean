@@ -31,9 +31,11 @@ En cuanto a esta última área, su utilización va desde la demostración de pro
   <td>False, f, no, n, 0</td>
   </tr>
   </table>
-  <p>Mostraré unos ejemplos de operaciones booleanas básicas, creamos la siguiente tabla:</p>
+  <p>
+  Mostraré unos ejemplos de operaciones booleanas básicas, creamos la siguiente tabla con el siguiente script <i>src/insertTbPropositions.plsql</i>:
+  </p>
 <div>
-<IMG src="images/tbPropositions.png">
+<IMG src="images/">
 </div><br>
   <p>Ahora insertaré unos registros, como proposiciones utilizaré las columnas nombrándolas con las letras standard que se usan para representarlas, en otra columna almacenaré su correspondiente valor de verdad, esto lo hago con el siguiente script.</p>
 <div>
